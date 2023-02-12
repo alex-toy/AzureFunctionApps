@@ -3,7 +3,6 @@
 Serverless is powerful and flexible way of delivering fast and scalable solutions in Azure.
 
 ## Intro to Azure Functions - What they are and how to create and deploy them
-https://www.youtube.com/watch?v=zIfxkub7CLY
 
 ### Create Anonymous Http Trigger
 
@@ -15,6 +14,9 @@ https://www.youtube.com/watch?v=zIfxkub7CLY
 - Create a new **Function App** in **VS Code** :
 <img src="/pictures/new_fa.png" title="new function app"  width="400">
 <img src="/pictures/new_fa2.png" title="new function app"  width="800">
+
+
+### Create Webhook
 
 - Add a **Webhook** in **Github** :
 <img src="/pictures/webhook.png" title="webhook"  width="800">
@@ -59,9 +61,23 @@ https://www.youtube.com/watch?v=zIfxkub7CLY
 
 
 
-https://www.youtube.com/watch?v=Vxf-rOEO1q4
+## Azure App Configuration
+https://www.youtube.com/watch?v=t6m13DxUJMc
 
+### Create App Configuration
+
+- Create App Configuration
+<img src="/pictures/app_conf.png" title="app configuration"  width="500">
+
+- Create **Key Value**
+<img src="/pictures/key_value.png" title="app configuration"  width="800">
+
+- Create **Feature**
+<img src="/pictures/feature.png" title="feature"  width="800">
+
+
+
+## Azure App Service Deployment Center
 https://www.youtube.com/watch?v=iItt8bQtVHE
 
-https://www.youtube.com/watch?v=t6m13DxUJMc
 
