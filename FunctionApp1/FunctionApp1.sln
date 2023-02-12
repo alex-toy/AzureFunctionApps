@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp1", "FunctionApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp2", "FunctionApp2\FunctionApp2.csproj", "{5637FD73-95D3-49CA-8BF2-952893D8E233}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubMonitorApp", "GitHubMonitorApp\GitHubMonitorApp.csproj", "{F5A9195B-4E2C-4D02-8350-A5AF47C069FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5637FD73-95D3-49CA-8BF2-952893D8E233}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5637FD73-95D3-49CA-8BF2-952893D8E233}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5637FD73-95D3-49CA-8BF2-952893D8E233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A9195B-4E2C-4D02-8350-A5AF47C069FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A9195B-4E2C-4D02-8350-A5AF47C069FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A9195B-4E2C-4D02-8350-A5AF47C069FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A9195B-4E2C-4D02-8350-A5AF47C069FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
