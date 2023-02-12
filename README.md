@@ -2,9 +2,11 @@
 
 Serverless is powerful and flexible way of delivering fast and scalable solutions in Azure.
 
-## Architecture
+## Create Function App in the portal
 
-<img src="/pictures/architecture.png" title="architecture"  width="800">
+<img src="/pictures/function_app.png" title="function app"  width="800">
+<img src="/pictures/function_app2.png" title="function app"  width="800">
+<img src="/pictures/function_app3.png" title="function app"  width="800">
 
 
 
