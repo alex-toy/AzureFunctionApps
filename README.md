@@ -2,6 +2,16 @@
 
 Serverless is powerful and flexible way of delivering fast and scalable solutions in Azure.
 
+## Intro to Azure Functions - What they are and how to create and deploy them
+https://www.youtube.com/watch?v=zIfxkub7CLY
+
+### Create Function App in the portal
+
+<img src="/pictures/function_app.png" title="function app"  width="500">
+
+
+
+
 ## Introduction for serverless programming
 
 ### Create Function App in the portal
@@ -30,14 +40,9 @@ And you should see it immediately in the output container :
 
 
 
-## Intro to Azure Functions - What they are and how to create and deploy them
-
-
-
 https://www.youtube.com/watch?v=Vxf-rOEO1q4
 
 https://www.youtube.com/watch?v=iItt8bQtVHE
 
 https://www.youtube.com/watch?v=t6m13DxUJMc
 
-https://www.youtube.com/watch?v=zIfxkub7CLY
