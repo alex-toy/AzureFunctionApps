@@ -62,7 +62,6 @@ Serverless is powerful and flexible way of delivering fast and scalable solution
 
 
 ## Azure App Configuration
-https://www.youtube.com/watch?v=t6m13DxUJMc
 
 ### Create App Configuration
 
@@ -70,10 +69,28 @@ https://www.youtube.com/watch?v=t6m13DxUJMc
 <img src="/pictures/app_conf.png" title="app configuration"  width="500">
 
 - Create **Key Value**
-<img src="/pictures/key_value.png" title="app configuration"  width="800">
+<img src="/pictures/key_value.png" title="key value"  width="800">
 
 - Create **Feature**
 <img src="/pictures/feature.png" title="feature"  width="800">
+
+- Create Console App
+```
+Microsoft.Extensions.Configuration.AzureAppConfiguration
+```
+<img src="/pictures/console_app.png" title="console app"  width="800">
+
+- Create **MVC Application**
+
+Observe the app is configured according to setting in App config :
+<img src="/pictures/mvc_app.png" title="MVC app"  width="800">
+
+- Create **Event Grid** with **Logic App**
+<img src="/pictures/logic_app.png" title="logic app"  width="800">
+
+- After modifying paramenters in the **App Configuration**, observe event in the **Logic App** :
+<img src="/pictures/logic_app_event.png" title="logic app event"  width="800">
+<img src="/pictures/logic_app_event2.png" title="logic app event"  width="800">
 
 
 

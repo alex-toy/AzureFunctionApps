@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using System;
 
 namespace AppConfigurationDemo
 {
@@ -6,7 +7,14 @@ namespace AppConfigurationDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ConfigurationBuilder builder = new ConfigurationBuilder();
+            string azureConnectionString = Environment.GetEnvironmentVariable("ConnectionString");
+            Console.WriteLine(azureConnectionString);
+
+            builder.AddAzureAppConfiguration(azureConnectionString);
+            IConfigurationRoot config = builder.Build();
+
+            Console.WriteLine(config["TestApp:Settings:Message"] ?? "Hello world");
         }
     }
 }

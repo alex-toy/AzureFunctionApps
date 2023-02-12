@@ -1,0 +1,21 @@
+﻿@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    body {
+        background-color : @Configuration["TestApp:Settings:BackGroundColor"];
+    }
+
+    h1 {
+        color : @Configuration["TestApp:Settings:FontColor"];
+        font-size : @Configuration["TestApp:Settings:FontSize"];
+    }
+</style>
+
+<div class="text-center">
+    <h1>@Configuration["TestApp:Settings:Message"]</h1>
+</div>
