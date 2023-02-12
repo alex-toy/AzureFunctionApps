@@ -20,9 +20,10 @@ namespace GitHubMonitorApp
             log.LogInformation("Our GithubMonitor processed an action.");
 
             string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
-            log.LogInformation(requestBody);
 
-            dynamic data = JsonConvert.DeserializeObject(requestBody);
+            Rootobject data = JsonConvert.DeserializeObject<Rootobject>(requestBody);
+            log.LogInformation(data.Sender.Login);
+            log.LogInformation(data.Sender.Avatar_url);
 
             return new OkResult();
         }

@@ -9,15 +9,23 @@ https://www.youtube.com/watch?v=zIfxkub7CLY
 
 <img src="/pictures/http.png" title="http trigger"  width="500">
 
-Run it locally :
+- Run it locally :
 <img src="/pictures/http2.png" title="http trigger run locally"  width="800">
 
-Create a new **Function App** in **VS Code** :
+- Create a new **Function App** in **VS Code** :
 <img src="/pictures/new_fa.png" title="new function app"  width="400">
 <img src="/pictures/new_fa2.png" title="new function app"  width="800">
 
-Add a **Webhook** in **Github** :
-<img src="/pictures/webhook.png" title="webhook"  width="400">
+- Add a **Webhook** in **Github** :
+<img src="/pictures/webhook.png" title="webhook"  width="800">
+
+- Now do a push on that repo :
+<img src="/pictures/webhook2.png" title="webhook"  width="800">
+<img src="/pictures/webhook3.png" title="webhook"  width="800">
+
+- See the result on the logs :
+<img src="/pictures/webhook4.png" title="webhook"  width="800">
+<img src="/pictures/webhook5.png" title="webhook"  width="800">
 
 
 
