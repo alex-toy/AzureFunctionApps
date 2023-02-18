@@ -97,4 +97,10 @@ Observe the app is configured according to setting in App config :
 ## Azure App Service Deployment Center
 https://www.youtube.com/watch?v=iItt8bQtVHE
 
+- Create **Web App**
+<img src="/pictures/web_app.png" title="web app"  width="500">
+
+- Create **Deployment Center**
+<img src="/pictures/deployment_center.png" title="deployment center"  width="500">
+
 
